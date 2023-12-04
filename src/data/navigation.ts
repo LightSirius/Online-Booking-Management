@@ -65,19 +65,19 @@ const demoChildMenus: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/",
-    name: "Online booking",
+    name: "MainPage",
   },
   {
     id: ncNanoId(),
-    href: "/home-2",
-    name: "Real estate",
-    isNew: true,
+    href: "/",
+    name: "Privacy",
+    // isNew: true,
   },
   {
     id: ncNanoId(),
-    href: "/home-3",
-    name: "Home 3",
-    isNew: true,
+    href: "https://github.com/LightSirius",
+    name: "GitHub",
+    // isNew: true,
   },
 ];
 
@@ -297,78 +297,58 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/listing-stay",
-    name: "Listing pages",
+    name: "뮤지컬 · 연극",
     children: [
-      { id: ncNanoId(), href: "/listing-stay", name: "Stay listings" },
-      {
-        id: ncNanoId(),
-        href: "/listing-stay-map",
-        name: "Stay listings (map)",
-      },
-      { id: ncNanoId(), href: "/listing-stay-detail", name: "Stay detail" },
-
-      //
-      {
-        id: ncNanoId(),
-        href: "/listing-experiences",
-        name: "Experiences listings",
-      },
-      {
-        id: ncNanoId(),
-        href: "/listing-experiences-map",
-        name: "Experiences (map)",
-      },
-      {
-        id: ncNanoId(),
-        href: "/listing-experiences-detail",
-        name: "Experiences detail",
-      },
+      { id: ncNanoId(), href: "/listing-stay", name: "뮤지컬" },
+      { id: ncNanoId(), href: "/listing-stay-detail", name: "연극" },
     ],
   },
   {
     id: ncNanoId(),
     href: "/listing-car",
-    name: "Listing pages",
+    name: "콘서트",
     children: [
-      { id: ncNanoId(), href: "/listing-car", name: "Cars listings" },
-      { id: ncNanoId(), href: "/listing-car-map", name: "Cars listings (map)" },
-      { id: ncNanoId(), href: "/listing-car-detail", name: "Car detail" },
-
-      //
-      {
-        id: ncNanoId(),
-        href: "/listing-real-estate",
-        name: "Real estate listings",
-      },
-      {
-        id: ncNanoId(),
-        href: "/listing-real-estate-map",
-        name: "Real estate (map)",
-      },
-      //
-      {
-        id: ncNanoId(),
-        href: "/listing-flights",
-        name: "Flights listings",
-      },
+      { id: ncNanoId(), href: "/listing-car", name: "콘서트" },
+      { id: ncNanoId(), href: "/listing-car-map", name: "행사" },
+      { id: ncNanoId(), href: "/listing-car-detail", name: "온라인 행사" },
+    ],
+  },
+  {
+    id: ncNanoId(),
+    href: "/listing-car",
+    name: "소식",
+    children: [
+      { id: ncNanoId(), href: "/listing-car", name: "공지사항" },
+      { id: ncNanoId(), href: "/listing-car-map", name: "이벤트" },
+      { id: ncNanoId(), href: "/listing-car-detail", name: "업데이트" },
+    ],
+  },
+  {
+    id: ncNanoId(),
+    href: "/listing-car",
+    name: "커뮤니티",
+    children: [
+      { id: ncNanoId(), href: "/listing-car", name: "전체 게시판" },
+      { id: ncNanoId(), href: "/listing-car-map", name: "자유 게시판" },
+      { id: ncNanoId(), href: "/listing-car-detail", name: "질문 게시판" },
     ],
   },
 
   //
-  {
-    id: ncNanoId(),
-    href: "/author",
-    name: "Templates",
-    type: "dropdown",
-    children: templatesChildrenMenus,
-  },
-
+  // {
+  //   id: ncNanoId(),
+  //   href: "/author",
+  //   name: "Templates",
+  //   type: "dropdown",
+  //   children: templatesChildrenMenus,
+  // },
   //
-  {
-    id: ncNanoId(),
-    href: "/blog",
-    name: "Other pages",
-    type: "dropdown",
-    children: otherPageChildMenus,
-  },
+  // //
+  // {
+  //   id: ncNanoId(),
+  //   href: "/blog",
+  //   name: "Other pages",
+  //   type: "dropdown",
+  //   children: otherPageChildMenus,
+  // },
 ];

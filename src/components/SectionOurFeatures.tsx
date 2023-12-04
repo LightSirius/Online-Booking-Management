@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import rightImgPng from "@/images/our-features.png";
+import rightImgPng from "@/images/BecomeAnAuthorImg.png";
 import Image, { StaticImageData } from "next/image";
 import Badge from "@/shared/Badge";
 
@@ -30,39 +30,36 @@ const SectionOurFeatures: FC<SectionOurFeaturesProps> = ({
         }`}
       >
         <span className="uppercase text-sm text-gray-400 tracking-widest">
-          BENnefits
+          서문
         </span>
-        <h2 className="font-semibold text-4xl mt-5">Happening cities </h2>
+        <h2 className="font-semibold text-4xl mt-5">티켓팅 서비스 메인 페이지 </h2>
 
         <ul className="space-y-10 mt-16">
           <li className="space-y-4">
-            <Badge name="Advertising" />
+            <Badge name="블루 뱃지" />
             <span className="block text-xl font-semibold">
-              Cost-effective advertising
+              Span to here
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              With a free listing, you can advertise your rental with no upfront
-              costs
+              desc to here
             </span>
           </li>
           <li className="space-y-4">
-            <Badge color="green" name="Exposure " />
+            <Badge color="green" name="그린 뱃지" />
             <span className="block text-xl font-semibold">
-              Reach millions with Chisfis
+              Span to here
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              Millions of people are searching for unique places to stay around
-              the world
+              desc to here
             </span>
           </li>
           <li className="space-y-4">
-            <Badge color="red" name="Secure" />
+            <Badge color="red" name="레드 뱃지" />
             <span className="block text-xl font-semibold">
-              Secure and simple
+              Span to here
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              A Holiday Lettings listing gives you a secure and easy way to take
-              bookings and payments online
+              desc to here
             </span>
           </li>
         </ul>

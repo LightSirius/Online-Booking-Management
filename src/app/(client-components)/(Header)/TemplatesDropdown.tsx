@@ -39,7 +39,7 @@ export default function TemplatesDropdown() {
                 ${open ? "" : "text-opacity-80"}
                 group h-10 sm:h-12 px-3 py-1.5 inline-flex items-center text-sm text-gray-800 dark:text-slate-300 font-medium hover:text-opacity-100 focus:outline-none `}
             >
-              <span className="">Templates</span>
+              <span className="">메뉴</span>
               <ChevronDownIcon
                 className={`${open ? "-rotate-180" : ""}
                   ml-1 h-4 w-4 transition ease-in-out duration-150 `}
@@ -62,7 +62,7 @@ export default function TemplatesDropdown() {
                       <div className="flex-1 grid grid-cols-5 gap-6 xl:gap-8 pr-6 xl:pr-8">
                         {NAVIGATION_DEMO_2.map((item, index) => (
                           <div key={index}>
-                            <p className="font-medium text-slate-900 dark:text-neutral-200">
+                            <p className="font-medium text-slate-900 dark:text-neutral-200 font-semibold">
                               {item.name}
                             </p>
                             <ul className="grid space-y-4 mt-4">

@@ -20,7 +20,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "New Yourk",
     taxonomy: "category",
-    count: 188288,
+    count: 897534,
     thumbnail:
       "https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
   },
@@ -29,7 +29,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "Singapore",
     taxonomy: "category",
-    count: 188288,
+    count: 675132,
     thumbnail:
       "https://images.pexels.com/photos/7740160/pexels-photo-7740160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
@@ -38,7 +38,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "Paris",
     taxonomy: "category",
-    count: 188288,
+    count: 321823,
     thumbnail:
       "https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
@@ -47,7 +47,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "London",
     taxonomy: "category",
-    count: 188288,
+    count: 25879,
     thumbnail:
       "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
   },
@@ -56,7 +56,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "Tokyo",
     taxonomy: "category",
-    count: 188288,
+    count: 18652,
     thumbnail:
       "https://images.pexels.com/photos/4151484/pexels-photo-4151484.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
   },
@@ -65,7 +65,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "Maldives",
     taxonomy: "category",
-    count: 188288,
+    count: 12156,
     thumbnail:
       "https://images.pexels.com/photos/3250613/pexels-photo-3250613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
@@ -74,7 +74,7 @@ const DEMO_CATS: TaxonomyType[] = [
     href: "/listing-stay-map",
     name: "Italy",
     taxonomy: "category",
-    count: 188288,
+    count: 9856,
     thumbnail:
       "https://images.pexels.com/photos/7740160/pexels-photo-7740160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
@@ -154,12 +154,12 @@ function PageHome() {
 
       <div className="container relative space-y-24 mb-24 lg:space-y-28 lg:mb-28">
         {/* SECTION HERO */}
-        <SectionHero className="pt-10 lg:pt-16 lg:pb-16" />
+        {/*<SectionHero className="pt-10 lg:pt-16 lg:pb-16" />*/}
+
+        <SectionOurFeatures />
 
         {/* SECTION 1 */}
         <SectionSliderNewCategories categories={DEMO_CATS} />
-
-        <SectionOurFeatures />
 
         <SectionGridFeaturePlaces cardType="card2" />
 
